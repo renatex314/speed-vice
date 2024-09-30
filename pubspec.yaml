@@ -1,0 +1,27 @@
+name: speed_vice
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter_native_splash: ^2.4.1
+  flutter:
+    sdk: flutter
+  flutter_modular: ^6.3.4
+  mobx: ^2.3.3+2
+  build_runner: ^2.4.12
+  mobx_codegen: ^2.6.1
+  flutter_mobx: ^2.2.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/logo.png
+  uses-material-design: true
